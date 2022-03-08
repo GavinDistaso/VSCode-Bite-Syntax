@@ -1,0 +1,29 @@
+{
+    "name": "bite-syntax",
+    "displayName": "Bite Syntax",
+    "description": "Bite syntax highlighting support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bite",
+            "aliases": ["Bite", "bite"],
+            "extensions": [".bite"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bite",
+            "scopeName": "source.bite",
+            "path": "./syntaxes/bite.tmLanguage.json"
+        }]
+    },
+    "repository": {
+        "url": "https://github.com/ProgrammingNerdGit/VSCode-Bite-Syntax"
+    },
+    "publisher": "ProgrammingNerd"
+}

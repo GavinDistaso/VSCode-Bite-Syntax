@@ -25,7 +25,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.bite",
-				"match": "\\b(if|while|for|return|func|resource|float|double|bool|[u]?int(8|16|32|64))\\b"
+				"match": "\\b(if|while|for|return|func|resource|str|float|double|bool|[u]?int(8|16|32|64))\\b"
 			}]
 		},
 		"strings": {
